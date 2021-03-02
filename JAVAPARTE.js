@@ -1,0 +1,45 @@
+		
+
+
+
+
+
+
+
+		var bunuelo=document.getElementById('DIGITAR');
+   
+      		function FV()
+      {
+       pan=bunuelo.value;
+       document.getElementById('INFO').innerHTML=pan;
+
+      }
+		var a1=document.getElementById('INFO');
+		function teclado()
+
+		 {
+		console.log(event.code);
+		console.log(event.type);
+			if(event.code=="KeyA")
+				
+			{
+
+				a1.className = "estilo2";
+
+				
+
+			}
+
+			if(event.code=="KeyB")
+			{
+
+				a1.className = "estilo1";
+			}
+
+			if(event.code=="KeyC")
+			{
+
+				a1.className = "estilo3";
+
+			}	
+		}
